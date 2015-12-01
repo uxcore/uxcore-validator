@@ -22,7 +22,7 @@ Validator.isNum = (value) => {
 }
 
 Validator.isInt = (value) => {
-    return Validator.isNum(value) && parseInt(value) === value;
+    return Validator.isNum(value) && parseInt(value) == value;
 };
 
 Validator.isDecimal = (value) => {
