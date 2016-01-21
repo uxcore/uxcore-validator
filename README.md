@@ -18,7 +18,7 @@ $ gulp server
 > 供了一些通用的 validator
 > 所有的 validator 返回 true，表示通过。
 
-* isNotEmpty
+* isNotEmpty: 空对象、空数组、空字符串都被理解为空。
 * isNum: 判断是否为数字，注意这里的数字包括字符串和数值两种数据类型。
 * isInt: 是否是整数
 * isDecimal: 是否是小数

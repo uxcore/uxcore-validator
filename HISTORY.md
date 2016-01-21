@@ -1,6 +1,10 @@
 # history
 
+## 0.1.2
+
+* `CHANGE` more powerful isNotEmpty
+
 ## 0.1.1
 
-* add 170 for china-mobile regexp
-* fix isInt bug
+* `CHANGE` add 170 for china-mobile regexp
+* `FIX` fix isInt bug

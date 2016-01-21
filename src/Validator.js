@@ -14,7 +14,28 @@ const PATTERN = {
 };
 
 Validator.isNotEmpty = (value) => {
-    return !!value && (value.length !== 0)
+    // empty means empty string, empty array, empty object & null & undefined
+    if (typeof value == "string") {
+        return value.length !== 0
+    }
+    else if (typeof value == 'object') {
+        if (value instanceof Array) {
+            return value.length !== 0
+        }
+        else {
+            var i = 0;
+            for (var key in value) {
+                i++;
+            }
+            return !!i;
+        }
+    }
+    else if (typeof value == 'number') {
+        return true;
+    }
+    else {
+        return !!value;
+    }
 }
 
 Validator.isNum = (value) => {

@@ -7,5 +7,5 @@
  */
 
 var Validator = require("../src");
-console.log(Validator);
+window.Validator = Validator;
 
