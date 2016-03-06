@@ -1,5 +1,9 @@
 # history
 
+## 0.1.3
+
+* `CHANGE` update scaffold
+
 ## 0.1.2
 
 * `CHANGE` more powerful isNotEmpty
