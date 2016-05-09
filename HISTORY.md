@@ -1,5 +1,8 @@
 # history
 
+## 0.2.0
+
+* `CHANGED` isUrl only check the location.host part
 
 ## 0.1.4
 

@@ -27,7 +27,7 @@ $ gulp server
 * isObject
 * isFunc
 * isEmail
-* isUrl
+* isUrl: 只做 host 部分的检测，这只是一个非常基础的检测，通过你需要搭配非法字符一同进行。
 * isHex
 * isIdCard: 是否是中国身份证。
 * isCNMobile: 是否是中国手机号。
