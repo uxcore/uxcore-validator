@@ -92,4 +92,5 @@ Validator.isIdCard = (value) => {
 Validator.isCNMobile = (value) => {
     return typeof(value) === 'string' && PATTERN.CNMOBILE.test(value);
 };
-module.exports = Validator;
+
+export default Validator;
