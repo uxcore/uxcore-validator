@@ -1,22 +1,26 @@
 # history
 
+## 0.2.1
+
+* `CHANGED` upgrade to react 15.x
+
 ## 0.2.0
 
 * `CHANGED` isUrl only check the location.host part
 
 ## 0.1.4
 
-* `CHANGE` remove import kuma less in src
+* `CHANGED` remove import kuma less in src
 
 ## 0.1.3
 
-* `CHANGE` update scaffold
+* `CHANGED` update scaffold
 
 ## 0.1.2
 
-* `CHANGE` more powerful isNotEmpty
+* `CHANGED` more powerful isNotEmpty
 
 ## 0.1.1
 
-* `CHANGE` add 170 for china-mobile regexp
+* `CHANGED` add 170 for china-mobile regexp
 * `FIX` fix isInt bug
