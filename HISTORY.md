@@ -1,5 +1,9 @@
 # history
 
+## 0.2.2
+
+* `FIX` fix conflicts
+
 ## 0.2.1
 
 * `CHANGED` upgrade to react 15.x

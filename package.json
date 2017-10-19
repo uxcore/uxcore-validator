@@ -1,6 +1,6 @@
 {
  "name": "uxcore-validator",
- "version": "0.2.1",
+ "version": "0.2.2",
  "description": "uxcore-validator component for uxcore.",
  "repository": "https://github.com/uxcore/uxcore-validator.git",
  "author": "eternalsky",
