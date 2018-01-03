@@ -58,6 +58,7 @@ Validator.isRegExp = (value) => {
     if (value instanceof RegExp) {
         return true;
     }
+
     try {
         return !!new RegExp(value);
     } catch (e) {
