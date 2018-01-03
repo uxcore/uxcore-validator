@@ -1,6 +1,10 @@
 ---
 
-## uxcore-validator [![Dependency Status](http://img.shields.io/david/uxcore/uxcore-validator.svg?style=flat-square)](https://david-dm.org/uxcore/uxcore-validator) [![devDependency Status](http://img.shields.io/david/dev/uxcore/uxcore-validator.svg?style=flat-square)](https://david-dm.org/uxcore/uxcore-validator#info=devDependencies) 
+## uxcore-validator
+
+[![Test Coverage](https://img.shields.io/coveralls/uxcore/uxcore-validator.svg?style=flat-square)](https://coveralls.io/r/uxcore/uxcore-validator?branch=master)
+[![Dependency Status](http://img.shields.io/david/uxcore/uxcore-validator.svg?style=flat-square)](https://david-dm.org/uxcore/uxcore-validator)
+[![devDependency Status](http://img.shields.io/david/dev/uxcore/uxcore-validator.svg?style=flat-square)](https://david-dm.org/uxcore/uxcore-validator#info=devDependencies)
 
 ## TL;DR
 
