@@ -53,6 +53,7 @@ describe('Validator', () => {
 
     it('should be able to validate email', () => {
         expect(Validator.isEmail('someone@example.com')).to.be(true);
+        expect(Validator.isEmail('SOMEONE@EXAMPLE.COM')).to.be(true);
         expect(Validator.isEmail('123')).to.be(false);
     });
 

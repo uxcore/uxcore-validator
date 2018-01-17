@@ -1,5 +1,9 @@
 # history
 
+## 0.2.3
+
+* `FIX` email and hex validators support using uppercase
+
 ## 0.2.2
 
 * `FIX` fix conflicts
