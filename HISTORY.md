@@ -1,5 +1,9 @@
 # history
 
+## 0.2.4
+
+* `FIX` update china mobile regular expression
+
 ## 0.2.3
 
 * `FIX` email and hex validators support using uppercase
