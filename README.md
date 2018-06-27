@@ -19,7 +19,8 @@ $ npm install
 $ gulp server
 ```
 
-> 供了一些通用的 validator
+> 提供了一些通用的 validator
+>
 > 所有的 validator 返回 true，表示通过。
 
 * isNotEmpty: 空对象、空数组、空字符串都被理解为空。
