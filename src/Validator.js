@@ -23,8 +23,8 @@ Validator.isNotEmpty = (value) => {
             return value.length !== 0
         }
         else {
-            var i = 0;
-            for (var key in value) {
+            let i = 0;
+            for (let key in value) {
                 i++;
             }
             return !!i;
