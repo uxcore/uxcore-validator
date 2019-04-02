@@ -1,4 +1,6 @@
 # history
+## 0.2.7
+* `CHANGED` add new method isNotEmptyIncludeFalse to fix a logic error in isNotEmpty
 
 ## 0.2.4
 
