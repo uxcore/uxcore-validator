@@ -15,9 +15,10 @@ const PATTERN = {
 
 Validator.isNotEmpty = (value) => {
     // empty means empty string, empty array, empty object & null & undefined
-    if (typeof value === "string") {
+    if (typeof value == "string") {
         return value.length !== 0
-    } else if (typeof value === 'object') {
+    }
+    else if (typeof value == 'object') {
         if (value instanceof Array) {
             return value.length !== 0
         }
@@ -28,9 +29,11 @@ Validator.isNotEmpty = (value) => {
             }
             return !!i;
         }
-    } else if (typeof value === 'number') {
+    }
+    else if (typeof value == 'number') {
         return true;
-    } else {
+    }
+    else {
       if (value === false) {
         console.error('当您看到本提示时，意味着在您的表单校验代码中存在将boolean值false判断为空的情况（isNotEmpty方法），基础组件将在不久的将来更新这一错误逻辑，请及时联系褚天qili.taoqili进行升级或者使用isNotEmptyIncludeFalse代替')
       }
