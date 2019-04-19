@@ -34,8 +34,18 @@ Validator.isNotEmpty = (value) => {
         return true;
     }
     else {
-        return !!value;
+      if (value === false) {
+        console.error('当您看到本提示时，意味着在您的表单校验代码中存在将boolean值false判断为空的情况（isNotEmpty方法），基础组件将在不久的将来更新这一错误逻辑，请及时联系褚天qili.taoqili进行升级或者使用isNotEmptyIncludeFalse代替')
+      }
+      return !!value;
     }
+}
+
+Validator.isNotEmptyIncludeFalse = (value) => {
+  if (value === false) {
+    return true
+  }
+  return Validator.isNotEmpty(value)
 }
 
 Validator.isNum = (value) => {
