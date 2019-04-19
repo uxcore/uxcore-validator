@@ -13,6 +13,7 @@ describe('Validator', () => {
         expect(Validator.isNotEmpty(true)).to.be(true);
         expect(Validator.isNotEmpty(false)).to.be(false);
         expect(Validator.isNotEmptyIncludeFalse(false)).to.be(true);
+        expect(Validator.isNotEmptyIncludeFalse('')).to.be(false);
     });
 
     it('should be able to validate number', () => {
